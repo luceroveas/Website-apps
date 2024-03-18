@@ -16,6 +16,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  text-align: center;
 }
 
 h2 {
@@ -92,5 +93,35 @@ p {
   .special-heading {
     text-align: center;
     color: blue;
+    font-size: 66px;
+  }
+  .weather-img,
+  .yoga-img,
+  .yogurt-img {
+    display: none;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
+
+  .special-p {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  h3 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .navigation-links {
+    margin-top: 10px;
   }
 }
